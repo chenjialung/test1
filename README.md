@@ -17,4 +17,4 @@ Aero-Engine Fault Risk Prediction: A Physics-Driven Machine Learning Approach
 语言：Python 3.x核心库：Scikit-learn, XGBoost, Pandas, NumPy优化与评估：贝叶斯优化（Bayesian Optimization）, 5 折交叉验证, 阈值搜索 可解释性工具：SHAP (SHapley Additive exPlanations)
 
 📊 实验结果 (Results)
-模型在验证集上取得了卓越的分类性能：ROC-AUC：\approx 0.996 F1-Score：\approx 0.913$ 通过 SHAP 分析识别出运行周期数（Cycle）、修正风扇转速、涵道比和**高压压气机出口静压（P30）**为故障预测的关键诱因 。
+模型在验证集上取得了卓越的分类性能：ROC-AUC：\approx 0.996 F1-Score：\approx 0.913 通过 SHAP 分析识别出运行周期数（Cycle）、修正风扇转速、涵道比和**高压压气机出口静压（P30）**为故障预测的关键诱因 。
